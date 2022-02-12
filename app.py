@@ -19,7 +19,6 @@ while run:
     for e in event.get():
         if e.type == QUIT:
             run = False
-     (Variable) window: Any
     window.blit(picture,(0, 0))
 
     display.update()
